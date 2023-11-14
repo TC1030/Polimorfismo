@@ -17,7 +17,7 @@ int main() {
             if (tipoEnvio == 'p' ) {
                 archivo >> nombreR >> ciudadR >> cpR >> nombreD >> ciudadD 
                 >> cpD >> peso >> ancho >> largo >> profundidad;
-                // 2. Crea dos objetos Persona una para el remitente y otra para el destinatario
+                // 2. Crea dos objetos Persona una para el remitente y otra para el destinatario con los datos que recibiste del archivo
                 
                 // 3. Agrega un nuevo paquete al vector
             }else {// si no fue p es una s entonces corresponde a un sobre
